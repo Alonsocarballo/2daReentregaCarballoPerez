@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.disponibilidad {
+    text-decoration: none;
+    color: black;
+    text-align: justify;
+}
+
+.disponibilidad:hover{
+    background-color: aqua;
+    color: black;
+    font-weight: bold;
+    
+}
+
+
+.card-body :hover{
+background-color: aqua;
+zoom: 1;
+font-weight: bold;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+    
+}
+a img{
+    display: flex;
+    justify-content: baseline;
+    align-items: center;
+    text-align: center;
+    width: 200px;
+    height: 200px;   
+    transition: transform 0.3s ease-in-out;
+    
+}
+
+a:hover img {
+  
+    transform: scale(1.2);
+    }
